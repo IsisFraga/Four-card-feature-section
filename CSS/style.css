@@ -1,22 +1,35 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
+    color: rgb(73, 73, 73);
     font-size: 15px;
     background-color: hsl(0, 0%, 98%);
-    padding: 30px;
+    padding: 20px;
 }
 
 header {
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
-
 h1 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 200;
     margin: 10px 0;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+header h3 {
+    line-height: 20px;
+    color: #999;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 20px;
 }
 
 strong {
@@ -30,36 +43,57 @@ strong {
     flex-wrap: wrap;
     flex-direction: column;
 }
+
+.cards p {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #999;
+    line-height: 20px;
+    width: 90%;
+}
+
 .cards li {
+    font-size: 20px;
     border-radius: 5px;
-    box-shadow: 1px 1px 4px #999;
+    box-shadow: 5px 10px 20px hsl(229, 25%, 86%);
+    margin: 10px 12px;
+    padding: 20px;
+    height: 175px;
 }
 
 .cian-card {
     background-color: #FFF;
-    border-top: 5px solid hsl(180, 62%, 55%);
+    border-top: 4px solid hsl(180, 62%, 55%);
 }
 
 .red-card {
     background-color: #FFF;
-    border-top: 5px solid hsl(0, 78%, 62%);
+    border-top: 4px solid hsl(0, 78%, 62%);
 }
 
 .orange-card {
     background-color: #FFF;
-    border-top: 5px solid hsl(34, 97%, 64%);
+    border-top: 4px solid hsl(34, 97%, 64%);
 }
 
 .blue-card {
     background-color: #FFF;
-    border-top: 5px solid hsl(212, 86%, 64%);
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.icon {
+    display: flex;
+    flex-direction: row-reverse;
+    transform: scale(0.9);
+    margin-top: 40px;
 }
 
 .footer { 
     font-size: 11px; 
-    text-align: center; 
+    text-align: center;
+    margin-top: 20px; 
 }
-
 
 .footer a { 
     color: hsl(228, 45%, 44%); 
